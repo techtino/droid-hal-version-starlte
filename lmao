@@ -1,0 +1,6 @@
+sed -e "s/@DEVICE@/starlte/" \
+-e "s/@VENDOR@/samsung/" \
+-e "s/@DEVICE_PRETTY@/Galaxy S9/" \
+-e "s/@VENDOR_PRETTY@/Samsung/" \
+droid-hal-version/droid-hal-version-@DEVICE@.spec.template > \
+rpm/droid-hal-version-starlte.spec
